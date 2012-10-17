@@ -303,10 +303,11 @@ public enum Material {
     SPRUCE_WOOD_STAIRS(134, Stairs.class),
     BIRCH_WOOD_STAIRS(135, Stairs.class),
     JUNGLE_WOOD_STAIRS(136, Stairs.class),
+    STONE_WALL(201),
+    WOOD_WALL(202),
     BOOK_AND_QUILL(386, 1),
     WRITTEN_BOOK(387, 1),
     EMERALD(388, 64);
-    
 
     private final int id;
     private final Class<? extends MaterialData> data;
